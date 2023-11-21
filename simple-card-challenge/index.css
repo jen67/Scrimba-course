@@ -65,7 +65,8 @@ img{
     box-shadow: 2px 3px 30px 9px rgba(0, 0, 0, 0.2);      
 }
 a{   
-    color: var(--og-clr); 
+    color: var(--og-clr);
+   font-weight: bold; 
 }
 
 a:hover, a:focus{
