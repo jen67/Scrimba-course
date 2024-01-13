@@ -11,17 +11,19 @@
 
 <body>
     <section>
-        <h1>got marketing? advance your business insight.</h1>
-        <p>Fill out the form and receive our award winning newsletter.</p>
+        <div class="header">
+            <h1>got marketing? advance your business insight.</h1>
+            <p>Fill out the form and receive our award winning newsletter.</p>
+        </div>
     </section>
 
-    <div>
+    <div class="content">
         <form>
-           <label for="name" id="name">Name</label> 
-              <input type="text" name="name" id="name" placeholder="Enter your name">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" autocomplete="name">
 
-            <label for="email" id="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" autocomplete="on">
 
             <div class="btn">
                 <button type="submit">
