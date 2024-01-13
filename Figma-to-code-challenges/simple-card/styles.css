@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
 /* Reset styles */
 * {
   margin: 0;
@@ -12,6 +15,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Image styles */
@@ -50,7 +54,6 @@ section {
 h1 {
   padding: 0 0 1rem 0;
   color: #fff;
-  font-family: "Poppins", Arial, sans-serif;
   font-size: 1.875rem;
   font-style: normal;
   font-weight: 400;
@@ -60,7 +63,6 @@ h1 {
 /* Paragraph styles */
 p {
   color: #8d91a6;
-  font-family: "Poppins", Arial, sans-serif;
   font-size: 1rem;
   font-style: normal;
   font-weight: 400;
@@ -94,7 +96,7 @@ p {
   }
 
   p {
-    font-size: 1.2rem;
+    font-size: 1.19rem;
     padding-bottom: 2rem;
   }
 }
