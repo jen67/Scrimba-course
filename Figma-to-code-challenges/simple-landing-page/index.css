@@ -47,4 +47,5 @@ section::before {
     background-image: url('bg.jpg');
     background-size: cover;
     background-position: 100%;
+    opacity: 0.22;
 }
