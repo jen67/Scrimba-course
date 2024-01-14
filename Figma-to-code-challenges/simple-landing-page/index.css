@@ -86,8 +86,9 @@ form input {
   background-color: var(--input-bgcolor);
 }
 
-form input:hover {
-  background-color:var(--border-color) ;
+form input:focus {
+  background-color:var(--hcolor) ;
+  border: 2px inset var(--border-color);
 }
 
 button {
