@@ -70,8 +70,8 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
+  transform: translateX(-100%);
   transition: width 0.3s ease, transform 0.3s ease;
-  translate: -100%;
 }
 
 nav img {
@@ -95,10 +95,10 @@ nav img:hover {
 }
 
 .content {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   margin: 1rem;
-  height: 100vh;
   border-radius: 0.8125rem;
   background-color: var(--section-color);
   background-image: url(./images/bg.jpg);
@@ -126,8 +126,8 @@ header {
 }
 
 .texts {
+  min-height: 100vh;
   padding: 1rem 2rem;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -148,7 +148,8 @@ header {
 }
 
 button {
-  width: 190px;
+  max-width: 190px;
+  width: 100%;
   display: flex;
   gap: 0.8rem;
   align-items: center;
@@ -173,4 +174,20 @@ button img {
 
 button:hover img {
   transform: translateX(5px);
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  nav {
+    position: unset;
+    transform: translateX(0) !important;
+    border-radius: unset;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+    height: 100%;
+  }
 }

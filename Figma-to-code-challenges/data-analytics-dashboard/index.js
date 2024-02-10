@@ -5,10 +5,10 @@
   const nav = document.querySelector("nav");
 
   closebtn.addEventListener("click", () => {
-    nav.style.transform = "translateX(0)";
+    nav.style.transform = "translateX(-100%)";
   });
 
   openbtn.addEventListener("click", () => {
-    nav.style.transform = "translateX(100%)";
+    nav.style.transform = "translateX(0)";
   });
 })();
