@@ -30,7 +30,17 @@ img {
 
 ul {
   list-style: none;
+  margin-top: 3rem;
 }
+
+ul li a {
+  text-decoration: none;
+  color: var(--heading);
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -41,7 +51,27 @@ body {
 }
 
 nav {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1.6rem;
+  background-color: var(--nav-color);
+  height: 100vh;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+nav img {
+  width: 18px;
+  transform: scaleX(-1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+nav img:hover {
+  transform: scaleX(-1) translateX(5px);
 }
 
 .content {
