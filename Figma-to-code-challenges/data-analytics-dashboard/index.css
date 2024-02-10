@@ -31,14 +31,23 @@ img {
 ul {
   list-style: none;
   margin-top: 3rem;
+  width: 100%;
 }
 
 ul li a {
+  width: 100%;
   text-decoration: none;
   color: var(--heading);
   font-size: 1rem;
   display: block;
   margin-bottom: 1rem;
+  padding: 0.2rem 0 0.2rem 2rem;
+}
+
+nav ul li a:hover,
+nav ul li a:active,
+nav ul li a:focus {
+  background-color: var(--patch-color);
 }
 
 body {
@@ -54,7 +63,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 1.6rem;
+  padding: 1.6rem 0 0 0;
   background-color: var(--nav-color);
   height: 100vh;
   width: 200px;
@@ -64,10 +73,19 @@ nav {
 }
 
 nav img {
+  margin-left: 1.8rem;
   width: 18px;
   transform: scaleX(-1);
   cursor: pointer;
   transition: transform 0.3s ease;
+}
+
+.active {
+  background-color: var(--patch-color);
+}
+
+.active:hover {
+  background-color: var(--patch-color) / 0.8;
 }
 
 nav img:hover {
