@@ -196,17 +196,16 @@ button:hover img {
     padding: 0;
   }
 
-  .logo{
+  .logo {
     text-align: start;
     font-size: 1.4rem;
     padding: 1.2rem;
   }
-  
+
   .menu img,
   nav img {
     display: none;
   }
-
 
   ul li a {
     padding-block: 0.7rem;
@@ -215,15 +214,15 @@ button:hover img {
   .texts {
     min-height: unset;
     padding: 1.2rem 1.2rem 1.2rem 3rem;
-    align-items: flex-start; 
+    align-items: flex-start;
     margin-top: 6rem;
   }
 
-  .texts h2{
+  .texts h2 {
     font-size: 4rem;
   }
 
-  .texts p{
+  .texts p {
     font-size: 2.5rem;
   }
 
@@ -235,16 +234,13 @@ button:hover img {
     border-bottom-left-radius: 13px;
     width: 300px;
   }
-
 }
 
-  @media screen and (min-width: 1024px) {
-
-    .texts {
-      width: 400px;
-    }
-    .texts h2{
-      font-size: 5rem;
-    }
-    
+@media screen and (min-width: 1024px) {
+  .texts {
+    width: 400px;
+  }
+  .texts h2 {
+    font-size: 5rem;
+  }
 }
