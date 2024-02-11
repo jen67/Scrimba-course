@@ -1,75 +1,54 @@
-:root{
-   --li-bl-clr: #2E7AD3; 
-   --dk-bl-clr: #104C90;
-   --og-clr: #FF8000;
-   --grey-clr: #F1F1F1   
-}
+Some resources I have access to as part of my github student pack
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+1. Jetbrains
+ Professional desktop IDEs: IntelliJ IDEA, PyCharm, and more.
 
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh; 
-}
+2.DigitalOcean
+Simple cloud hosting, built for developers.
 
-h1, h2{
-    padding: 0;
-    margin: 0; 
-}
-h1{
-    font-size: 48px;
-    margin: 45px 0; 
-    color: var(--li-bl-clr); 
-}
+3. Namecheap
+1 year domain name registration on the .me TLD.
+1 SSL certificate free for 1 year.
 
-h2{
-    font-size: 32px;
-    color: var(--dk-bl-clr); 
-    margin-bottom: 9px; 
-}
+4. Microsoft Azure
+Free access to 25+ Microsoft Azure cloud services plus $100 in Azure credit. For students aged 18+.
 
-p{
-    font-size: 16px; 
-}
+5. Name.com
+Domains, Google Workspace, WordPress, DigitalOcean hosting, and more.
 
-p:first-of-type{
-    margin: 25px 0 0 0;  
-}
+6. Heroku
+A flexible, easy-to-use platform to deploy, run, and manage your apps.
+for 24 months
 
-p:last-of-type{
-    margin: 9px 0;  
-}
+7. Termius
+SSH client that works on desktop and mobile. Termius securely syncs data across all your devices.
+Free access to all Termius Pro and Termius Team features.
 
-img{
-    display: block;
-    max-width: 100%; 
-}
+8. GitLens
+Free GitLens+ Pro 
 
+9. Testmail.app
+Unlimited email addresses and mailboxes for automating email tests
 
-.container{
-    max-width: 500px;
-    background: var(--grey-clr); 
-    padding: 25px; 
-    margin-bottom: 1rem; 
-    cursor: pointer;   
-}
+10. Stripe
+Waived transaction fees on first $1000 in revenue processed.
 
-.container:hover{   
-    box-shadow: 2px 3px 30px 9px rgba(0, 0, 0, 0.2);      
-}
-a{   
-    color: var(--og-clr);
-   font-weight: bold; 
-}
+11. DataDog
+Cloud-based infrastructure monitoring.
+Pro Account, including 10 servers. Free for 2 years.
 
-a:hover, a:focus{
-    color: var(--dk-bl-clr);  
-} 
+12. mailgun
+Powerful APIs that enable you to send, receive and track email effortlessly.
+20,000 free emails and 100 free email validations each month for up to 12 months.
 
+13. Typeform
+Interactive forms, surveys & quizzes to engage and grow your audience
+Free professional plan for 1 year.
+
+14. zyte
+Zyte's Scrapy Cloud is a battle-tested cloud platform for running web crawlers. Manage and automate your web spiders at scale.
+1 Free Forever Scrapy Cloud Unit - unlimited team members, projects or requests. Unlimited crawl time and 120 day data retention.
+
+15. lambda Test
+Perform automated and live interactive cross browser testing on 2000+ real browsers and operating systems online.
+Free LambdaTest Live Plan for one year.
