@@ -181,19 +181,27 @@ button:hover img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
+    margin: 2rem;
   }
 
   .content {
-    margin: 0;
+    margin: 0 auto;
     width: 100%;
-    height: auto;
-    padding: 0;
+    height: unset;
+    padding: 1.2rem;
+    border-radius: 0 13px 13px 0;
   }
 
   header {
     padding: 0;
   }
+
+  .logo{
+    text-align: start;
+    font-size: 1.4rem;
+    padding: 1.2rem;
+  }
+  
   .menu img,
   nav img {
     display: none;
@@ -201,7 +209,17 @@ button:hover img {
 
   .texts {
     min-height: unset;
-    padding: 0;
+    padding: 1.2rem;
+    align-items: flex-start; 
+    margin-top: 6rem;
+  }
+
+  .texts h2{
+    font-size: 4rem;
+  }
+
+  .texts p{
+    font-size: 2.5rem;
   }
 
   nav {
