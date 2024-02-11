@@ -179,7 +179,29 @@ button:hover img {
 @media screen and (min-width: 768px) {
   .container {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  .content {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  header {
+    padding: 0;
+  }
+  .menu img,
+  nav img {
+    display: none;
+  }
+
+  .texts {
+    min-height: unset;
+    padding: 0;
   }
 
   nav {
@@ -188,6 +210,6 @@ button:hover img {
     border-radius: unset;
     border-top-left-radius: 13px;
     border-bottom-left-radius: 13px;
-    height: 100%;
+    width: 300px;
   }
 }
