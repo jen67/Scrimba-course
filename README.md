@@ -12,8 +12,15 @@ This repository contains some tasks and solo projects that i have done as part o
 > * Simple-Landing-Page
 >
 >
+> ## In CSS-Final-Challenge
+>
+> * simple-landing-page
+>
+> 
  [![Desktop Preview](./Figma-to-code-challenges/data-analytics-dashboard/images/My-desktop-view.jpeg)](https://jen67.github.io/Scrimba-course/Figma-to-code-challenges/data-analytics-dashboard/)
 
  [![Desktop Preview](./Figma-to-code-challenges/simple-card/Desktop-preview.jpeg)](https://jen67.github.io/Scrimba-course/Figma-to-code-challenges/simple-card/)
 
  [![Desktop Preview](./Figma-to-code-challenges/simple-landing-page/Desktop-preview.jpeg)](https://jen67.github.io/Scrimba-course/Figma-to-code-challenges/simple-landing-page/)
+
+[![Desktop Preview](./css-final-challenge/images/desktop-view.jpeg)](https://jen67.github.io/Scrimba-course/css-final-challenge/)
